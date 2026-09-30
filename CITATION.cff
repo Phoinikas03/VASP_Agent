@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: If you use this repository, please cite the associated manuscript.
+title: "VASP Agent: An Agentic Framework for Autonomous First-principles Calculations"
+authors:
+  - family-names: Xia
+    given-names: Zeyu
+  - family-names: Zheng
+    given-names: Congjie
+  - family-names: Ma
+    given-names: Jinzhe
+  - family-names: Wang
+    given-names: Zhongyao
+  - family-names: Zhang
+    given-names: Shufei
+  - family-names: Li
+    given-names: Yuqiang
+  - family-names: Su
+    given-names: Hang
+  - family-names: Hu
+    given-names: P.
+  - family-names: Zhang
+    given-names: Changshui
+  - family-names: Gong
+    given-names: Xingao
+  - family-names: Ouyang
+    given-names: Wanli
+  - family-names: Bai
+    given-names: Lei
+  - family-names: Zhou
+    given-names: Dongzhan
+  - family-names: Su
+    given-names: Mao
+repository-code: "https://github.com/Phoinikas03/VASP_Agent.git"
+date-released: "2026-07-03"

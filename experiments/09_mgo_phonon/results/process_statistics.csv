@@ -1,0 +1,5 @@
+metric,calculation_and_delivery,consolidation,total
+Tool calls,226,33,259
+Explicitly flagged tool errors,13,1,14
+Skill tool calls,7,2,9
+ResultMessage with is_error=true,0,2,2

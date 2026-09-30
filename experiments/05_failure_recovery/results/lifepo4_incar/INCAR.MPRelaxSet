@@ -1,0 +1,24 @@
+# MPRelaxSet generated with pymatgen 2025.10.7 for data/relax_40/LiFePO4/POSCAR
+ALGO = Fast
+EDIFF = 0.00135
+ENCUT = 520.0
+IBRION = 2
+ISIF = 3
+ISMEAR = -5
+ISPIN = 2
+LASPH = True
+LDAU = True
+LDAUJ = 0 0 0 0
+LDAUL = 0 2 0 0
+LDAUPRINT = 1
+LDAUTYPE = 2
+LDAUU = 0 5.3 0 0
+LMAXMIX = 4
+LORBIT = 11
+LREAL = Auto
+LWAVE = False
+MAGMOM = 3*0.6 4*5.0 20*0.6
+NELM = 100
+NSW = 99
+PREC = Accurate
+SIGMA = 0.05

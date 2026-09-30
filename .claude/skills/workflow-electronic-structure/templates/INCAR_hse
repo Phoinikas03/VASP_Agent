@@ -1,0 +1,35 @@
+SYSTEM = HSE06 Electronic Structure Calculation
+# --- Electronic structure ---
+ISTART  = 1          # Required! Read WAVECAR from the previous stage
+ICHARG  = 2          # Initial charge density from superposition of atomic charges
+PREC    = Accurate
+ENCUT   = 520        # Must be identical to the previous stage
+EDIFF   = 1E-5
+NELM    = 100
+
+# --- Hybrid functional HSE06 ---
+LHFCALC = .TRUE.
+HFSCREEN = 0.2
+AEXX     = 0.25
+
+# --- Algorithm ---
+ALGO    = Damped
+TIME    = 0.4
+
+# --- Acceleration ---
+PRECFOCK = Fast
+
+# --- Smearing ---
+ISMEAR  = 0
+SIGMA   = 0.05
+
+# --- Output ---
+LWAVE   = .FALSE.
+LCHARG  = .FALSE.
+
+# --- K-points (must be identical to the previous stage) ---
+KSPACING = 0.20
+KGAMMA   = .TRUE.
+
+# --- Parallelization ---
+# GPU / KPAR / NCORE / NPAR must first be decided by the performance skill

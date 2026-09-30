@@ -1,0 +1,10 @@
+*.tex text
+*.bib text
+*.md text
+*.csv text
+*.py text
+*.svg text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary

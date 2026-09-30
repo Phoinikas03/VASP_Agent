@@ -1,0 +1,9 @@
+system,component_type,site,orientation,initial_structure_file,task_prompt
+CO,gas-phase CO,,,CO/POSCAR,"Determine CO adsorption energies on Pt(111) using a consistent gas, clean slab, and adsorbed slab reference convention."
+surface,clean Pt(111) slab,,,surface/POSCAR,"Determine CO adsorption energies on Pt(111) using a consistent gas, clean slab, and adsorbed slab reference convention."
+configs/fcc_upright,adsorbed slab,fcc,upright,configs/fcc_upright/POSCAR,"Determine CO adsorption energies on Pt(111) using a consistent gas, clean slab, and adsorbed slab reference convention."
+configs/fcc_tilted_x,adsorbed slab,fcc,tilted-x,configs/fcc_tilted_x/POSCAR,"Determine CO adsorption energies on Pt(111) using a consistent gas, clean slab, and adsorbed slab reference convention."
+configs/fcc_tilted_y,adsorbed slab,fcc,tilted-y,configs/fcc_tilted_y/POSCAR,"Determine CO adsorption energies on Pt(111) using a consistent gas, clean slab, and adsorbed slab reference convention."
+configs/ontop_upright,adsorbed slab,ontop,upright,configs/ontop_upright/POSCAR,"Determine CO adsorption energies on Pt(111) using a consistent gas, clean slab, and adsorbed slab reference convention."
+configs/ontop_tilted_x,adsorbed slab,ontop,tilted-x,configs/ontop_tilted_x/POSCAR,"Determine CO adsorption energies on Pt(111) using a consistent gas, clean slab, and adsorbed slab reference convention."
+configs/ontop_tilted_y,adsorbed slab,ontop,tilted-y,configs/ontop_tilted_y/POSCAR,"Determine CO adsorption energies on Pt(111) using a consistent gas, clean slab, and adsorbed slab reference convention."

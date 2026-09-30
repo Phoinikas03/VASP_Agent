@@ -1,0 +1,44 @@
+{
+  "phonopy_version": "4.4.0",
+  "relaxed_conventional_a_angstrom": 4.2549923790508295,
+  "supercell_atoms": 64,
+  "epsilon_infinity_diagonal": [
+    3.23322121,
+    3.23322121,
+    3.23322121
+  ],
+  "born_charge_xx": [
+    1.99214282,
+    -1.99214282
+  ],
+  "gamma_band_cm-1": [
+    1.9426063877585466e-06,
+    1.0078024697480254e-05,
+    2.862203688018169e-05,
+    371.87360108940453,
+    371.87360108940464,
+    680.6816615642091
+  ],
+  "gamma_qpoint_without_direction_cm-1": [
+    -4.272441562578043e-06,
+    0.0,
+    9.45694445898568e-06,
+    371.87360108940453,
+    371.87360108940453,
+    371.87360108940476
+  ],
+  "gamma_qpoint_direction_110_cm-1": [
+    0.0,
+    6.125461775226819e-06,
+    2.9246480051444777e-05,
+    371.87360108940453,
+    371.87360108940476,
+    680.6816615642091
+  ],
+  "TO_cm-1": 371.87360108940453,
+  "LO_cm-1": 680.6816615642091,
+  "LO_TO_splitting_cm-1": 308.80806047480456,
+  "path_minimum_cm-1": -9.717845023087653e-06,
+  "path_sampled_qpoints": 404,
+  "note": "Gamma frequencies are taken from the first point of the Gamma-X band segment, which fixes the NAC approach direction."
+}

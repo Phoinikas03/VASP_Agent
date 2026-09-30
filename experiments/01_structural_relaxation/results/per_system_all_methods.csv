@@ -1,0 +1,201 @@
+system_class,model_backbone,system,category,status,energy_per_atom_ev,reference_energy_per_atom_ev,delta_e_mev_atom,rmsd,max_lattice_angle_difference_deg,run_subdir,energy_source,included_in_statistics
+Workflow baseline,DeepSeek-V3.2,Al,Metal,completed,-3.718537,-3.719145,0.61,0.0022,0.0,.,vasprun.xml,yes
+Workflow baseline,DeepSeek-V3.2,AlN,Inorganic nonmetal,completed,-7.269102,-7.273433,4.33,0.0064,0.0,.,vasprun.xml,yes
+Workflow baseline,DeepSeek-V3.2,Au,Metal,completed,-3.198271,-3.203923,5.65,0.0008,0.0,.,vasprun.xml,yes
+Workflow baseline,DeepSeek-V3.2,BaFeO3,Functional oxide / thermoelectric,no final structure,,-6.172921,,,,.,,no
+Workflow baseline,DeepSeek-V3.2,BaTiO3,Functional oxide / thermoelectric,completed,-7.921746,-7.921862,0.12,0.0029,0.04,.,vasprun.xml,yes
+Workflow baseline,DeepSeek-V3.2,Bi2Te3,Functional oxide / thermoelectric,completed,-3.560018,-3.559605,-0.41,0.014,0.54,.,vasprun.xml,yes
+Workflow baseline,DeepSeek-V3.2,BN,Inorganic nonmetal,completed,-8.374807,-8.374668,-0.14,0.0019,0.0,.,vasprun.xml,yes
+Workflow baseline,DeepSeek-V3.2,CaCO3,Inorganic nonmetal,completed,-7.3715,-7.375522,4.02,0.0378,0.68,.,vasprun.xml,yes
+Workflow baseline,DeepSeek-V3.2,CaF2,Inorganic nonmetal,completed,-5.356804,-5.356839,0.04,0.0015,0.0,.,vasprun.xml,yes
+Workflow baseline,DeepSeek-V3.2,CoSb3,Functional oxide / thermoelectric,completed,-4.915758,-4.915485,-0.27,0.0033,0.09,.,vasprun.xml,yes
+Workflow baseline,DeepSeek-V3.2,Cr,Metal,no final structure,,-9.43622,,,,.,,no
+Workflow baseline,DeepSeek-V3.2,Cu,Metal,completed,-3.698914,-3.702852,3.94,0.0009,0.0,.,vasprun.xml,yes
+Workflow baseline,DeepSeek-V3.2,Fe,Metal,completed,-8.035672,-8.209693,174.02,0.0221,19.29,.,vasprun.xml,yes
+Workflow baseline,DeepSeek-V3.2,FeS2,Semiconductor,no final structure,,-5.807265,,,,.,,no
+Workflow baseline,DeepSeek-V3.2,FeSe,Superconductor,completed,-4.105517,-6.081178,1975.66,0.0104,0.0,.,vasprun.xml,yes
+Workflow baseline,DeepSeek-V3.2,Li2S,Energy material,completed,-3.943323,-3.942772,-0.55,0.0029,0.0,.,vasprun.xml,yes
+Workflow baseline,DeepSeek-V3.2,Li4Ti5O12,Energy material,completed,-7.88252,-7.882634,0.11,0.0178,0.32,.,vasprun.xml,yes
+Workflow baseline,DeepSeek-V3.2,Li7La3Zr2O12,Energy material,completed,-7.18948,-7.178264,-11.22,0.1061,0.69,.,vasprun.xml,yes
+Workflow baseline,DeepSeek-V3.2,Li10Ge(PS6)2,Energy material,no output,,-4.298292,,,,,,no
+Workflow baseline,DeepSeek-V3.2,LiCoO2,Energy material,completed,-5.736488,-5.728825,-7.66,0.0036,0.06,.,vasprun.xml,yes
+Workflow baseline,DeepSeek-V3.2,LiFeAs,Superconductor,completed,-5.486139,-5.48277,-3.37,0.0291,0.0,.,vasprun.xml,yes
+Workflow baseline,DeepSeek-V3.2,LiFePO4,Energy material,completed,-6.909411,-6.853325,-56.09,0.0412,1.33,.,vasprun.xml,yes
+Workflow baseline,DeepSeek-V3.2,LiMn2O4,Energy material,completed,-7.334046,-6.904391,-429.65,0.0986,0.48,.,vasprun.xml,yes
+Workflow baseline,DeepSeek-V3.2,LiNbO3,Functional oxide / thermoelectric,completed,-7.855453,-7.856611,1.16,0.0252,0.34,.,OSZICAR,yes
+Workflow baseline,DeepSeek-V3.2,Mg,Metal,completed,-1.471757,-1.471447,-0.31,0.0052,0.14,.,vasprun.xml,yes
+Workflow baseline,DeepSeek-V3.2,MgB2,Superconductor,completed,-5.148722,-5.149528,0.81,0.001,0.0,.,vasprun.xml,yes
+Workflow baseline,DeepSeek-V3.2,MgO,Inorganic nonmetal,completed,-5.76697,-5.768938,1.97,0.0048,0.07,.,vasprun.xml,yes
+Workflow baseline,DeepSeek-V3.2,NaCl,Inorganic nonmetal,completed,-3.265718,-3.26656,0.84,0.0026,0.09,.,vasprun.xml,yes
+Workflow baseline,DeepSeek-V3.2,Nb3Sn,Superconductor,completed,-8.596834,-8.597062,0.23,0.0037,0.0,.,vasprun.xml,yes
+Workflow baseline,DeepSeek-V3.2,NbN,Superconductor,completed,-10.103341,-10.101483,-1.86,0.0059,0.09,.,vasprun.xml,yes
+Workflow baseline,DeepSeek-V3.2,Ni,Metal,completed,-5.379305,-5.432408,53.1,0.0016,0.0,.,vasprun.xml,yes
+Workflow baseline,DeepSeek-V3.2,Sb2Te3,Functional oxide / thermoelectric,completed,-3.617886,-3.618792,0.91,0.0069,0.04,.,OSZICAR,yes
+Workflow baseline,DeepSeek-V3.2,SiO2,Inorganic nonmetal,completed,-7.396519,-7.278419,-118.1,0.2834,4.82,.,vasprun.xml,yes
+Workflow baseline,DeepSeek-V3.2,SnSe,Functional oxide / thermoelectric,completed,-4.072186,-4.053163,-19.02,0.078,0.24,.,vasprun.xml,yes
+Workflow baseline,DeepSeek-V3.2,Sr2RuO4,Superconductor,completed,-6.719628,-6.723553,3.93,0.0072,0.1,.,vasprun.xml,yes
+Workflow baseline,DeepSeek-V3.2,TePb,Functional oxide / thermoelectric,completed,-3.698591,-3.69797,-0.62,0.0092,0.12,.,vasprun.xml,yes
+Workflow baseline,DeepSeek-V3.2,Ti,Metal,completed,-7.668795,-7.669175,0.38,0.0006,0.0,.,vasprun.xml,yes
+Workflow baseline,DeepSeek-V3.2,TiC,Inorganic nonmetal,completed,-8.84535,-8.849353,4.0,0.0001,0.0,.,vasprun.xml,yes
+Workflow baseline,DeepSeek-V3.2,TiPbO3,Functional oxide / thermoelectric,completed,-7.159068,-7.161506,2.44,0.0012,0.0,.,vasprun.xml,yes
+Workflow baseline,DeepSeek-V3.2,Zn,Metal,completed,-1.092126,-1.097404,5.28,0.0025,0.0,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,Al,Metal,completed,-3.718189,-3.719145,0.96,0.0022,0.0,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,AlN,Inorganic nonmetal,completed,-7.269102,-7.273433,4.33,0.0064,0.0,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,Au,Metal,completed,-3.197859,-3.203923,6.06,0.0001,0.0,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,BaFeO3,Functional oxide / thermoelectric,no final structure,,-6.172921,,,,.,,no
+Workflow baseline,Gemini-3.1-Pro,BaTiO3,Functional oxide / thermoelectric,completed,-7.921746,-7.921862,0.12,0.0029,0.04,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,Bi2Te3,Functional oxide / thermoelectric,completed,-3.559769,-3.559605,-0.16,0.0145,0.54,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,BN,Inorganic nonmetal,completed,-8.373029,-8.374668,1.64,0.0002,0.0,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,CaCO3,Inorganic nonmetal,completed,-7.370272,-7.375522,5.25,0.0404,0.56,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,CaF2,Inorganic nonmetal,completed,-5.356375,-5.356839,0.46,0.0008,0.0,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,CoSb3,Functional oxide / thermoelectric,completed,-4.912629,-4.915485,2.86,0.0041,0.1,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,Cr,Metal,no final structure,,-9.43622,,,,.,,no
+Workflow baseline,Gemini-3.1-Pro,Cu,Metal,completed,-3.699715,-3.702852,3.14,0.0009,0.0,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,Fe,Metal,completed,-8.198621,-8.209693,11.07,0.0015,0.02,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,FeS2,Semiconductor,completed,-5.795216,-5.807265,12.05,0.0096,0.23,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,FeSe,Superconductor,completed,-6.077031,-6.081178,4.15,0.0026,0.0,.,OSZICAR,yes
+Workflow baseline,Gemini-3.1-Pro,Li2S,Energy material,completed,-3.943416,-3.942772,-0.64,0.003,0.0,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,Li4Ti5O12,Energy material,completed,-7.882223,-7.882634,0.41,0.0145,0.38,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,Li7La3Zr2O12,Energy material,completed,-7.189483,-7.178264,-11.22,0.1073,0.72,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,Li10Ge(PS6)2,Energy material,no output,,-4.298292,,,,,,no
+Workflow baseline,Gemini-3.1-Pro,LiCoO2,Energy material,completed,-6.2332,-5.728825,-504.37,0.0048,0.21,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,LiFeAs,Superconductor,no final structure,,-5.48277,,,,.,,no
+Workflow baseline,Gemini-3.1-Pro,LiFePO4,Energy material,completed,-7.096043,-6.853325,-242.72,0.0198,1.28,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,LiMn2O4,Energy material,completed,-6.892349,-6.904391,12.04,0.0136,0.17,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,LiNbO3,Functional oxide / thermoelectric,completed,-7.855694,-7.856611,0.92,0.0391,0.44,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,Mg,Metal,completed,-1.478193,-1.471447,-6.75,0.0068,0.08,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,MgB2,Superconductor,completed,-5.148633,-5.149528,0.9,0.0008,0.0,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,MgO,Inorganic nonmetal,completed,-5.76892,-5.768938,0.02,0.0004,0.01,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,NaCl,Inorganic nonmetal,completed,-3.26544,-3.26656,1.12,0.0033,0.08,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,Nb3Sn,Superconductor,completed,-8.596329,-8.597062,0.73,0.0032,0.0,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,NbN,Superconductor,completed,-10.101116,-10.101483,0.37,0.0044,0.1,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,Ni,Metal,no final structure,,-5.432408,,,,.,,no
+Workflow baseline,Gemini-3.1-Pro,Sb2Te3,Functional oxide / thermoelectric,completed,-4.068153,-3.618792,-449.36,0.0226,0.14,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,SiO2,Inorganic nonmetal,completed,-7.342543,-7.278419,-64.12,0.1068,4.03,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,SnSe,Functional oxide / thermoelectric,completed,-4.282148,-4.053163,-228.99,0.0719,0.1,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,Sr2RuO4,Superconductor,completed,-6.725342,-6.723553,-1.79,0.0103,0.16,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,TePb,Functional oxide / thermoelectric,completed,-3.698994,-3.69797,-1.02,0.0103,0.12,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,Ti,Metal,completed,-7.668806,-7.669175,0.37,0.0006,0.0,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,TiC,Inorganic nonmetal,completed,-8.845455,-8.849353,3.9,0.0001,0.0,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,TiPbO3,Functional oxide / thermoelectric,completed,-7.15907,-7.161506,2.44,0.0011,0.0,.,vasprun.xml,yes
+Workflow baseline,Gemini-3.1-Pro,Zn,Metal,completed,-1.092154,-1.097404,5.25,0.0028,0.0,.,vasprun.xml,yes
+Workflow baseline,GPT-5.2,Al,Metal,completed,-3.707774,-3.719145,11.37,0.0037,0.0,.,vasprun.xml,yes
+Workflow baseline,GPT-5.2,AlN,Inorganic nonmetal,completed,-7.242406,-7.273433,31.03,0.0379,0.0,.,vasprun.xml,yes
+Workflow baseline,GPT-5.2,Au,Metal,completed,-3.183647,-3.203923,20.28,0.0149,0.0,.,vasprun.xml,yes
+Workflow baseline,GPT-5.2,BaFeO3,Functional oxide / thermoelectric,completed,-6.601381,-6.172921,-428.46,0.014,0.0,.,vasprun.xml,yes
+Workflow baseline,GPT-5.2,BaTiO3,Functional oxide / thermoelectric,completed,-7.920861,-7.921862,1.0,0.0185,0.09,.,vasprun.xml,yes
+Workflow baseline,GPT-5.2,Bi2Te3,Functional oxide / thermoelectric,completed,-3.51053,-3.559605,49.07,0.0776,2.04,.,vasprun.xml,yes
+Workflow baseline,GPT-5.2,BN,Inorganic nonmetal,completed,-8.323613,-8.374668,51.06,0.0327,0.0,.,vasprun.xml,yes
+Workflow baseline,GPT-5.2,CaCO3,Inorganic nonmetal,completed,-7.370944,-7.375522,4.58,0.0333,0.6,.,vasprun.xml,yes
+Workflow baseline,GPT-5.2,CaF2,Inorganic nonmetal,completed,-5.351225,-5.356839,5.61,0.0525,0.0,.,vasprun.xml,yes
+Workflow baseline,GPT-5.2,CoSb3,Functional oxide / thermoelectric,completed,-4.907544,-4.915485,7.94,0.0074,0.16,.,vasprun.xml,yes
+Workflow baseline,GPT-5.2,Cr,Metal,no final structure,,-9.43622,,,,.,,no
+Workflow baseline,GPT-5.2,Cu,Metal,completed,-3.677605,-3.702852,25.25,0.0081,0.0,.,vasprun.xml,yes
+Workflow baseline,GPT-5.2,Fe,Metal,no final structure,,-8.209693,,,,.,,no
+Workflow baseline,GPT-5.2,FeS2,Semiconductor,completed,-5.77406,-5.807265,33.2,0.0203,0.29,.,vasprun.xml,yes
+Workflow baseline,GPT-5.2,FeSe,Superconductor,completed,-5.805465,-6.081178,275.71,0.0487,0.0,.,vasprun.xml,yes
+Workflow baseline,GPT-5.2,Li2S,Energy material,completed,-3.943323,-3.942772,-0.55,0.0029,0.0,.,vasprun.xml,yes
+Workflow baseline,GPT-5.2,Li4Ti5O12,Energy material,no final structure,,-7.882634,,,,.,,no
+Workflow baseline,GPT-5.2,Li7La3Zr2O12,Energy material,completed,-7.189574,-7.178264,-11.31,0.107,0.7,.,vasprun.xml,yes
+Workflow baseline,GPT-5.2,Li10Ge(PS6)2,Energy material,no output,,-4.298292,,,,,,no
+Workflow baseline,GPT-5.2,LiCoO2,Energy material,no final structure,,-5.728825,,,,.,,no
+Workflow baseline,GPT-5.2,LiFeAs,Superconductor,no final structure,,-5.48277,,,,.,,no
+Workflow baseline,GPT-5.2,LiFePO4,Energy material,completed,-7.598031,-6.853325,-744.71,0.0342,1.64,.,OSZICAR,yes
+Workflow baseline,GPT-5.2,LiMn2O4,Energy material,completed,-7.618188,-6.904391,-713.8,0.0543,0.62,.,vasprun.xml,yes
+Workflow baseline,GPT-5.2,LiNbO3,Functional oxide / thermoelectric,completed,-7.855738,-7.856611,0.87,0.0349,0.42,.,vasprun.xml,yes
+Workflow baseline,GPT-5.2,Mg,Metal,completed,-1.471399,-1.471447,0.05,0.005,0.09,.,vasprun.xml,yes
+Workflow baseline,GPT-5.2,MgB2,Superconductor,completed,-5.149436,-5.149528,0.09,0.0011,0.0,.,vasprun.xml,yes
+Workflow baseline,GPT-5.2,MgO,Inorganic nonmetal,completed,-5.768836,-5.768938,0.1,0.0004,0.0,.,vasprun.xml,yes
+Workflow baseline,GPT-5.2,NaCl,Inorganic nonmetal,completed,-3.265702,-3.26656,0.86,0.0026,0.08,.,vasprun.xml,yes
+Workflow baseline,GPT-5.2,Nb3Sn,Superconductor,completed,-8.596717,-8.597062,0.34,0.0031,0.0,.,vasprun.xml,yes
+Workflow baseline,GPT-5.2,NbN,Superconductor,completed,-10.101131,-10.101483,0.35,0.0052,0.09,.,vasprun.xml,yes
+Workflow baseline,GPT-5.2,Ni,Metal,no final structure,,-5.432408,,,,.,,no
+Workflow baseline,GPT-5.2,Sb2Te3,Functional oxide / thermoelectric,completed,-3.616468,-3.618792,2.32,0.0207,0.3,.,OSZICAR,yes
+Workflow baseline,GPT-5.2,SiO2,Inorganic nonmetal,completed,-7.356342,-7.278419,-77.92,0.2546,5.87,.,vasprun.xml,yes
+Workflow baseline,GPT-5.2,SnSe,Functional oxide / thermoelectric,completed,-4.072444,-4.053163,-19.28,0.078,0.25,.,vasprun.xml,yes
+Workflow baseline,GPT-5.2,Sr2RuO4,Superconductor,no final structure,,-6.723553,,,,.,,no
+Workflow baseline,GPT-5.2,TePb,Functional oxide / thermoelectric,completed,-3.69859,-3.69797,-0.62,0.0086,0.1,.,vasprun.xml,yes
+Workflow baseline,GPT-5.2,Ti,Metal,completed,-7.668823,-7.669175,0.35,0.0007,0.0,.,vasprun.xml,yes
+Workflow baseline,GPT-5.2,TiC,Inorganic nonmetal,completed,-8.846502,-8.849353,2.85,0.0001,0.0,.,vasprun.xml,yes
+Workflow baseline,GPT-5.2,TiPbO3,Functional oxide / thermoelectric,no final structure,,-7.161506,,,,.,,no
+Workflow baseline,GPT-5.2,Zn,Metal,completed,-1.095938,-1.097404,1.47,0.0025,0.0,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,Al,Metal,completed,-3.718564,-3.719145,0.58,0.0022,0.0,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,AlN,Inorganic nonmetal,completed,-7.269186,-7.273433,4.25,0.0065,0.0,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,Au,Metal,completed,-3.198388,-3.203923,5.53,0.0007,0.0,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,BaFeO3,Functional oxide / thermoelectric,completed,-6.817881,-6.172921,-644.96,0.0051,0.0,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,BaTiO3,Functional oxide / thermoelectric,completed,-7.921899,-7.921862,-0.04,0.0028,0.03,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,Bi2Te3,Functional oxide / thermoelectric,completed,-3.838865,-3.559605,-279.26,0.0169,0.59,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,BN,Inorganic nonmetal,completed,-8.3731,-8.374668,1.57,0.0002,0.0,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,CaCO3,Inorganic nonmetal,completed,-7.37154,-7.375522,3.98,0.0407,0.74,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,CaF2,Inorganic nonmetal,completed,-5.356812,-5.356839,0.03,0.0014,0.0,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,CoSb3,Functional oxide / thermoelectric,completed,-4.912673,-4.915485,2.81,0.0037,0.11,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,Cr,Metal,no final structure,,-9.43622,,,,.,,no
+Workflow baseline,Qwen3.5-397B-A17B,Cu,Metal,completed,-3.700326,-3.702852,2.53,0.0007,0.0,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,Fe,Metal,no final structure,,-8.209693,,,,.,,no
+Workflow baseline,Qwen3.5-397B-A17B,FeS2,Semiconductor,completed,-5.795845,-5.807265,11.42,0.0099,0.24,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,FeSe,Superconductor,completed,-6.399469,-6.081178,-318.29,0.0503,0.0,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,Li2S,Energy material,completed,-3.943325,-3.942772,-0.55,0.0031,0.0,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,Li4Ti5O12,Energy material,completed,-7.882577,-7.882634,0.06,0.019,0.34,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,Li7La3Zr2O12,Energy material,completed,-7.184088,-7.178264,-5.82,0.0572,0.28,.,OSZICAR,yes
+Workflow baseline,Qwen3.5-397B-A17B,Li10Ge(PS6)2,Energy material,no output,,-4.298292,,,,,,no
+Workflow baseline,Qwen3.5-397B-A17B,LiCoO2,Energy material,completed,-6.233808,-5.728825,-504.98,0.0048,0.22,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,LiFeAs,Superconductor,completed,-5.496003,-5.48277,-13.23,0.0174,0.0,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,LiFePO4,Energy material,completed,-7.096374,-6.853325,-243.05,0.0207,1.33,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,LiMn2O4,Energy material,completed,-6.876855,-6.904391,27.54,0.0136,0.18,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,LiNbO3,Functional oxide / thermoelectric,completed,-7.855698,-7.856611,0.91,0.0406,0.46,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,Mg,Metal,completed,-1.477723,-1.471447,-6.28,0.0072,0.1,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,MgB2,Superconductor,completed,-5.148722,-5.149528,0.81,0.0011,0.0,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,MgO,Inorganic nonmetal,completed,-5.769007,-5.768938,-0.07,0.0006,0.04,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,NaCl,Inorganic nonmetal,completed,-3.265732,-3.26656,0.83,0.0024,0.06,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,Nb3Sn,Superconductor,completed,-8.596838,-8.597062,0.22,0.0037,0.0,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,NbN,Superconductor,completed,-10.101132,-10.101483,0.35,0.0052,0.08,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,Ni,Metal,no final structure,,-5.432408,,,,.,,no
+Workflow baseline,Qwen3.5-397B-A17B,Sb2Te3,Functional oxide / thermoelectric,completed,-4.068937,-3.618792,-450.14,0.0224,0.13,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,SiO2,Inorganic nonmetal,completed,-7.342001,-7.278419,-63.58,0.0929,3.26,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,SnSe,Functional oxide / thermoelectric,completed,-4.419293,-4.053163,-366.13,0.0763,0.06,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,Sr2RuO4,Superconductor,completed,-6.725665,-6.723553,-2.11,0.0099,0.19,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,TePb,Functional oxide / thermoelectric,completed,-3.698984,-3.69797,-1.01,0.0098,0.13,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,Ti,Metal,completed,-7.668805,-7.669175,0.37,0.0006,0.0,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,TiC,Inorganic nonmetal,completed,-8.845867,-8.849353,3.49,0.0002,0.0,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,TiPbO3,Functional oxide / thermoelectric,completed,-7.158568,-7.161506,2.94,0.0017,0.0,.,vasprun.xml,yes
+Workflow baseline,Qwen3.5-397B-A17B,Zn,Metal,completed,-1.092343,-1.097404,5.06,0.0026,0.0,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,Al,Metal,completed,-3.716731,-3.719145,2.41,0.005,0.0,Al_relax,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,AlN,Inorganic nonmetal,completed,-7.269245,-7.273433,4.19,0.0068,0.0,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,Au,Metal,completed,-3.20583,-3.203923,-1.91,0.0007,0.0,relax,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,BaFeO3,Functional oxide / thermoelectric,completed,-6.170764,-6.172921,2.16,0.0016,0.0,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,BaTiO3,Functional oxide / thermoelectric,completed,-7.306346,-7.921862,615.52,0.0052,0.0,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,Bi2Te3,Functional oxide / thermoelectric,completed,-3.989907,-3.559605,-430.3,0.027,0.64,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,BN,Inorganic nonmetal,completed,-8.374129,-8.374668,0.54,0.0003,0.0,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,CaCO3,Inorganic nonmetal,completed,-7.376266,-7.375522,-0.74,0.0406,0.69,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,CaF2,Inorganic nonmetal,completed,-5.356271,-5.356839,0.57,0.0012,0.0,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,CoSb3,Functional oxide / thermoelectric,completed,-4.911637,-4.915485,3.85,0.0028,0.08,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,Cr,Metal,completed,-9.433736,-9.43622,2.48,0.0068,0.0,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,Cu,Metal,completed,-3.686428,-3.702852,16.42,0.0003,0.0,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,Fe,Metal,completed,-8.176471,-8.209693,33.22,0.0011,0.21,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,FeS2,Semiconductor,completed,-5.785849,-5.807265,21.42,0.0089,0.13,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,FeSe,Superconductor,completed,-6.076869,-6.081178,4.31,0.003,0.0,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,Li2S,Energy material,completed,-3.933964,-3.942772,8.81,0.0033,0.0,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,Li4Ti5O12,Energy material,completed,-7.882101,-7.882634,0.53,0.0173,0.36,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,Li7La3Zr2O12,Energy material,completed,-7.185184,-7.178264,-6.92,0.1068,0.73,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,Li10Ge(PS6)2,Energy material,completed,-4.299835,-4.298292,-1.54,0.1061,0.91,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,LiCoO2,Energy material,completed,-5.688201,-5.728825,40.62,0.0037,0.02,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,LiFeAs,Superconductor,completed,-5.486948,-5.48277,-4.18,0.0182,0.0,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,LiFePO4,Energy material,completed,-6.844982,-6.853325,8.34,0.0146,1.09,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,LiMn2O4,Energy material,completed,-6.884671,-6.904391,19.72,0.0479,0.86,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,LiNbO3,Functional oxide / thermoelectric,completed,-7.853113,-7.856611,3.5,0.0335,0.41,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,Mg,Metal,completed,-1.467758,-1.471447,3.69,0.0035,0.13,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,MgB2,Superconductor,completed,-5.153592,-5.149528,-4.06,0.0022,0.0,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,MgO,Inorganic nonmetal,completed,-5.789191,-5.768938,-20.25,0.0006,0.02,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,NaCl,Inorganic nonmetal,completed,-3.265366,-3.26656,1.19,0.0032,0.07,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,Nb3Sn,Superconductor,completed,-8.592683,-8.597062,4.38,0.0048,0.0,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,NbN,Superconductor,completed,-10.101173,-10.101483,0.31,0.0064,0.08,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,Ni,Metal,completed,-5.410906,-5.432408,21.5,0.0009,0.0,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,Sb2Te3,Functional oxide / thermoelectric,completed,-4.066574,-3.618792,-447.78,0.0224,0.12,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,SiO2,Inorganic nonmetal,completed,-7.354195,-7.278419,-75.78,0.2601,5.84,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,SnSe,Functional oxide / thermoelectric,completed,-4.071118,-4.053163,-17.96,0.078,0.21,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,Sr2RuO4,Superconductor,completed,-6.721375,-6.723553,2.18,0.01,0.2,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,TePb,Functional oxide / thermoelectric,completed,-3.705378,-3.69797,-7.41,0.0069,0.09,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,Ti,Metal,completed,-7.631055,-7.669175,38.12,0.0006,0.0,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,TiC,Inorganic nonmetal,completed,-8.789311,-8.849353,60.04,0.0013,0.0,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,TiPbO3,Functional oxide / thermoelectric,completed,-6.615978,-7.161506,545.53,0.0072,0.0,.,vasprun.xml,yes
+VASP Agent,DeepSeek-V3.2,Zn,Metal,completed,-1.085043,-1.097404,12.36,0.0012,0.0,.,vasprun.xml,yes

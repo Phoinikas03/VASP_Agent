@@ -1,0 +1,29 @@
+SYSTEM = PBE Static SCF for Band Structure Pre-calculation
+# --- Electronic structure ---
+ISTART  = 0          # Start from scratch (first run)
+ICHARG  = 2          # Initialize from superposition of atomic charge densities
+PREC    = Accurate
+ENCUT   = 520        # Adjust per material (recommended: max ENMAX in POTCAR * 1.3)
+EDIFF   = 1E-6       # Electronic convergence criterion
+NELM    = 100        # Maximum number of electronic steps
+
+# --- Exchange-correlation ---
+GGA     = PE         # PBE functional
+
+# --- Smearing (Gaussian for semiconductors/insulators) ---
+ISMEAR  = 0
+SIGMA   = 0.05
+
+# --- Output: WAVECAR and CHGCAR must be kept for the HSE restart ---
+LWAVE   = .TRUE.     # Required! The HSE stage reads the initial wavefunction from it
+LCHARG  = .TRUE.     # Required!
+
+# --- Algorithm ---
+ALGO    = Normal
+
+# --- K-points (must be identical to the HSE stage; use INCAR only, no KPOINTS file) ---
+KSPACING = 0.20
+KGAMMA   = .TRUE.
+
+# --- Parallelization ---
+NCORE   = 4          # Adjust to the number of cores per compute node

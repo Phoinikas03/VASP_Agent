@@ -1,0 +1,74 @@
+{
+  "first_event_utc": "2026-09-07T10:08:12.968+00:00",
+  "last_event_utc": "2026-09-07T13:29:40.979+00:00",
+  "sessions": [
+    {
+      "session_id": "9a3029a6-74c4-4570-b790-88eed39472f0",
+      "first_init_log_line": 2,
+      "init_records": 16,
+      "models": [
+        "deepseek-v4-flash-vision-exp"
+      ],
+      "claude_code_versions": [
+        "2.1.191"
+      ]
+    },
+    {
+      "session_id": "4f9eb5e6-bbc2-4a23-adba-5c357511fc16",
+      "first_init_log_line": 21158,
+      "init_records": 1,
+      "models": [
+        "deepseek-v4-flash-vision-exp"
+      ],
+      "claude_code_versions": [
+        "2.1.191"
+      ]
+    }
+  ],
+  "skills_listed_at_start": [
+    "incar-builder",
+    "incar-dftu-xc",
+    "incar-magnetism-soc",
+    "incar-performance",
+    "incar-smearing-precision",
+    "incar-validator",
+    "pdf",
+    "potcar-policy",
+    "research-literature",
+    "run-vasp",
+    "simple-skill-creator",
+    "structure-builder",
+    "structure-supercell",
+    "vasp-error-recovery",
+    "workflow-adsorption-energy",
+    "workflow-bandgap-legacy-alias",
+    "workflow-convergence",
+    "workflow-electronic-structure",
+    "workflow-eos-lattice-constant",
+    "workflow-relax",
+    "deep-research",
+    "design-sync",
+    "update-config",
+    "verify",
+    "debug",
+    "code-review",
+    "simplify",
+    "batch",
+    "fewer-permission-prompts",
+    "loop",
+    "claude-api",
+    "run",
+    "run-skill-generator"
+  ],
+  "workflow_phonon_available_at_start": false,
+  "component_skills_loaded_during_calculation": [
+    "run-vasp",
+    "incar-builder",
+    "structure-builder",
+    "workflow-relax",
+    "workflow-convergence",
+    "incar-performance",
+    "incar-smearing-precision"
+  ],
+  "consolidation_start_log_line": 21144
+}

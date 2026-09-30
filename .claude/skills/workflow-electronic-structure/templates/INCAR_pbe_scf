@@ -1,0 +1,29 @@
+SYSTEM = PBE Static SCF for Electronic Structure
+# --- Electronic structure ---
+ISTART  = 0          # Start from scratch (first run)
+ICHARG  = 2          # Initialize from superposition of atomic charge densities
+PREC    = Accurate
+ENCUT   = 520        # Adjust per material (recommended: max ENMAX in POTCAR * 1.3)
+EDIFF   = 1E-6
+NELM    = 100
+
+# --- Exchange-correlation ---
+GGA     = PE
+
+# --- Smearing ---
+ISMEAR  = 0
+SIGMA   = 0.05
+
+# --- Output ---
+LWAVE   = .TRUE.     # For subsequent HSE / band / DOS restarts
+LCHARG  = .TRUE.
+
+# --- Algorithm ---
+ALGO    = Normal
+
+# --- K-points (by default use INCAR only; no KPOINTS file) ---
+KSPACING = 0.20
+KGAMMA   = .TRUE.
+
+# --- Parallelization ---
+NCORE   = 4          # If the user requests hardware-specific tuning, go through the performance skill first

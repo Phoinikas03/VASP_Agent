@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Local environments and secrets
+.env
+.venv/
+venv/
+.litellm_autostart/
+litellm_autostart_config.yaml
+litellm_autostart.log
+
+# LaTeX build outputs
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# VASP restricted or heavy outputs
+POTCAR
+POTCAR_dir/
+runs/
+workspace/
+logs/
+CHG
+CHGCAR
+WAVECAR
+WAVEDER
+TMPCAR
+PCDAT
+PROCAR
+DOSCAR
+XDATCAR
+vasprun.xml
+OUTCAR
+OSZICAR
+REPORT
+
+# Local backups
+*.bak
+*.bak_*

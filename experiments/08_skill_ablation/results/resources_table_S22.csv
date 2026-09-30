@@ -1,0 +1,10 @@
+metric,with_domain_skills,without_domain_skills
+Calculation directories retaining an OUTCAR,612,1472
+VASP launch attempts,638,1484
+Recorded LLM responses (unique message IDs),4048,7970
+Uncached input tokens,2953956,3960923
+Cache-read input tokens,605239424,2041236480
+Output tokens,2906295,3483487
+"Total tokens, including cache reads",611099675,2048680890
+Estimated API cost at a common rate (USD),6.8047009880000005,17.459159839999998
+Cumulative VASP process elapsed time (h),49.47476694444445,358.0985783333333

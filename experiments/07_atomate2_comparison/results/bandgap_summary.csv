@@ -1,0 +1,4 @@
+method,completion,mean_abs_error_eV,mean_abs_difference_eV,max_abs_difference_eV
+VASP Agent (DeepSeek v4),5/5,0.09470000000000005,,
+atomate2,5/5,0.09349999999999992,,
+|VASP Agent - atomate2|,,,0.011840000000000206,0.02589999999999959

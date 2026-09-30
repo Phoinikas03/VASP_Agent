@@ -1,0 +1,41 @@
+system,category,initial_structure_file,task_prompt
+Al,Metal,Al/POSCAR,Optimize the structure of Al using VASP and report the final optimized energy and structure.
+AlN,Inorganic nonmetal,AlN/POSCAR,Optimize the structure of AlN using VASP and report the final optimized energy and structure.
+Au,Metal,Au/POSCAR,Optimize the structure of Au using VASP and report the final optimized energy and structure.
+BaFeO3,Functional oxide / thermoelectric,BaFeO3/POSCAR,Optimize the structure of BaFeO3 using VASP and report the final optimized energy and structure.
+BaTiO3,Functional oxide / thermoelectric,BaTiO3/POSCAR,Optimize the structure of BaTiO3 using VASP and report the final optimized energy and structure.
+Bi2Te3,Functional oxide / thermoelectric,Bi2Te3/POSCAR,Optimize the structure of Bi2Te3 using VASP and report the final optimized energy and structure.
+BN,Inorganic nonmetal,BN/POSCAR,Optimize the structure of BN using VASP and report the final optimized energy and structure.
+CaCO3,Inorganic nonmetal,CaCO3/POSCAR,Optimize the structure of CaCO3 using VASP and report the final optimized energy and structure.
+CaF2,Inorganic nonmetal,CaF2/POSCAR,Optimize the structure of CaF2 using VASP and report the final optimized energy and structure.
+CoSb3,Functional oxide / thermoelectric,CoSb3/POSCAR,Optimize the structure of CoSb3 using VASP and report the final optimized energy and structure.
+Cr,Metal,Cr/POSCAR,Optimize the structure of Cr using VASP and report the final optimized energy and structure.
+Cu,Metal,Cu/POSCAR,Optimize the structure of Cu using VASP and report the final optimized energy and structure.
+Fe,Metal,Fe/POSCAR,Optimize the structure of Fe using VASP and report the final optimized energy and structure.
+FeS2,Semiconductor,FeS2/POSCAR,Optimize the structure of FeS2 using VASP and report the final optimized energy and structure.
+FeSe,Superconductor,FeSe/POSCAR,Optimize the structure of FeSe using VASP and report the final optimized energy and structure.
+Li2S,Energy material,Li2S/POSCAR,Optimize the structure of Li2S using VASP and report the final optimized energy and structure.
+Li4Ti5O12,Energy material,Li4Ti5O12/POSCAR,Optimize the structure of Li4Ti5O12 using VASP and report the final optimized energy and structure.
+Li7La3Zr2O12,Energy material,Li7La3Zr2O12/POSCAR,Optimize the structure of Li7La3Zr2O12 using VASP and report the final optimized energy and structure.
+Li10Ge(PS6)2,Energy material,Li10Ge(PS6)2/POSCAR,Optimize the structure of Li10Ge(PS6)2 using VASP and report the final optimized energy and structure.
+LiCoO2,Energy material,LiCoO2/POSCAR,Optimize the structure of LiCoO2 using VASP and report the final optimized energy and structure.
+LiFeAs,Superconductor,LiFeAs/POSCAR,Optimize the structure of LiFeAs using VASP and report the final optimized energy and structure.
+LiFePO4,Energy material,LiFePO4/POSCAR,Optimize the structure of LiFePO4 using VASP and report the final optimized energy and structure.
+LiMn2O4,Energy material,LiMn2O4/POSCAR,Optimize the structure of LiMn2O4 using VASP and report the final optimized energy and structure.
+LiNbO3,Functional oxide / thermoelectric,LiNbO3/POSCAR,Optimize the structure of LiNbO3 using VASP and report the final optimized energy and structure.
+Mg,Metal,Mg/POSCAR,Optimize the structure of Mg using VASP and report the final optimized energy and structure.
+MgB2,Superconductor,MgB2/POSCAR,Optimize the structure of MgB2 using VASP and report the final optimized energy and structure.
+MgO,Inorganic nonmetal,MgO/POSCAR,Optimize the structure of MgO using VASP and report the final optimized energy and structure.
+NaCl,Inorganic nonmetal,NaCl/POSCAR,Optimize the structure of NaCl using VASP and report the final optimized energy and structure.
+Nb3Sn,Superconductor,Nb3Sn/POSCAR,Optimize the structure of Nb3Sn using VASP and report the final optimized energy and structure.
+NbN,Superconductor,NbN/POSCAR,Optimize the structure of NbN using VASP and report the final optimized energy and structure.
+Ni,Metal,Ni/POSCAR,Optimize the structure of Ni using VASP and report the final optimized energy and structure.
+Sb2Te3,Functional oxide / thermoelectric,Sb2Te3/POSCAR,Optimize the structure of Sb2Te3 using VASP and report the final optimized energy and structure.
+SiO2,Inorganic nonmetal,SiO2/POSCAR,Optimize the structure of SiO2 using VASP and report the final optimized energy and structure.
+SnSe,Functional oxide / thermoelectric,SnSe/POSCAR,Optimize the structure of SnSe using VASP and report the final optimized energy and structure.
+Sr2RuO4,Superconductor,Sr2RuO4/POSCAR,Optimize the structure of Sr2RuO4 using VASP and report the final optimized energy and structure.
+TePb,Functional oxide / thermoelectric,TePb/POSCAR,Optimize the structure of TePb using VASP and report the final optimized energy and structure.
+Ti,Metal,Ti/POSCAR,Optimize the structure of Ti using VASP and report the final optimized energy and structure.
+TiC,Inorganic nonmetal,TiC/POSCAR,Optimize the structure of TiC using VASP and report the final optimized energy and structure.
+TiPbO3,Functional oxide / thermoelectric,TiPbO3/POSCAR,Optimize the structure of TiPbO3 using VASP and report the final optimized energy and structure.
+Zn,Metal,Zn/POSCAR,Optimize the structure of Zn using VASP and report the final optimized energy and structure.

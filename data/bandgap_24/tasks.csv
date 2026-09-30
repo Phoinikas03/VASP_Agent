@@ -1,0 +1,25 @@
+system,initial_structure_file,task_prompt
+AlN,AlN/POSCAR,Calculate the HSE band gap of AlN through a PBE-to-HSE VASP workflow.
+B6P,B6P/POSCAR,Calculate the HSE band gap of B6P through a PBE-to-HSE VASP workflow.
+BN,BN/POSCAR,Calculate the HSE band gap of BN through a PBE-to-HSE VASP workflow.
+BaO2,BaO2/POSCAR,Calculate the HSE band gap of BaO2 through a PBE-to-HSE VASP workflow.
+C,C/POSCAR,Calculate the HSE band gap of C through a PBE-to-HSE VASP workflow.
+CdS,CdS/POSCAR,Calculate the HSE band gap of CdS through a PBE-to-HSE VASP workflow.
+CdSe,CdSe/POSCAR,Calculate the HSE band gap of CdSe through a PBE-to-HSE VASP workflow.
+CdTe,CdTe/POSCAR,Calculate the HSE band gap of CdTe through a PBE-to-HSE VASP workflow.
+Cu2O,Cu2O/POSCAR,Calculate the HSE band gap of Cu2O through a PBE-to-HSE VASP workflow.
+Ga2O3,Ga2O3/POSCAR,Calculate the HSE band gap of Ga2O3 through a PBE-to-HSE VASP workflow.
+GaAs,GaAs/POSCAR,Calculate the HSE band gap of GaAs through a PBE-to-HSE VASP workflow.
+GaN,GaN/POSCAR,Calculate the HSE band gap of GaN through a PBE-to-HSE VASP workflow.
+GaP,GaP/POSCAR,Calculate the HSE band gap of GaP through a PBE-to-HSE VASP workflow.
+InGaP2,InGaP2/POSCAR,Calculate the HSE band gap of InGaP2 through a PBE-to-HSE VASP workflow.
+InP,InP/POSCAR,Calculate the HSE band gap of InP through a PBE-to-HSE VASP workflow.
+InSe,InSe/POSCAR,Calculate the HSE band gap of InSe through a PBE-to-HSE VASP workflow.
+MoS2,MoS2/POSCAR,Calculate the HSE band gap of MoS2 through a PBE-to-HSE VASP workflow.
+PbS,PbS/POSCAR,Calculate the HSE band gap of PbS through a PBE-to-HSE VASP workflow.
+PbSe,PbSe/POSCAR,Calculate the HSE band gap of PbSe through a PBE-to-HSE VASP workflow.
+Si,Si/POSCAR,Calculate the HSE band gap of Si through a PBE-to-HSE VASP workflow.
+SiC,SiC/POSCAR,Calculate the HSE band gap of SiC through a PBE-to-HSE VASP workflow.
+SnO2,SnO2/POSCAR,Calculate the HSE band gap of SnO2 through a PBE-to-HSE VASP workflow.
+ZnO,ZnO/POSCAR,Calculate the HSE band gap of ZnO through a PBE-to-HSE VASP workflow.
+ZnS,ZnS/POSCAR,Calculate the HSE band gap of ZnS through a PBE-to-HSE VASP workflow.

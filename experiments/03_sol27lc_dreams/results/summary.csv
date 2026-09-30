@@ -1,0 +1,3 @@
+system_class,model_backbone,completion,mean_lattice_error_percent,median_lattice_error_percent
+DREAMS,not applicable,27/27,0.526,0.542
+VASP Agent,DeepSeek-V3.2,27/27,0.374,0.258

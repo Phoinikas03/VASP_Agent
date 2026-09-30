@@ -1,0 +1,6 @@
+system_class,model_backbone,completion,mean_bandgap_deviation_ev,median_bandgap_deviation_ev
+Workflow baseline,DeepSeek-V3.2,21/24,0.099,0.066
+Workflow baseline,Gemini-3.1-Pro,24/24,0.101,0.073
+Workflow baseline,GPT-5.2,21/24,0.13,0.081
+Workflow baseline,Qwen3.5-397B-A17B,24/24,0.105,0.073
+VASP Agent,DeepSeek-V3.2,24/24,0.159,0.088

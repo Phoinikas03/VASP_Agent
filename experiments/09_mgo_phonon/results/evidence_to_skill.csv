@@ -1,0 +1,7 @@
+execution_observation,action_in_this_case,generated_content,log_lines
+No end-to-end phonon workflow was available,Combine seven components with online methodological sources,Stage sequence and component dependencies in SKILL.md,7264; 20885
+Force-constant loading calls failed,Assign through ph.force_constants,Loading instructions and post-processing scripts,20740; 20746
+The Born-generation command printed to stdout,Redirect output explicitly to BORN,File-generation instruction and troubleshooting entry,20625; 20628
+Born-data interfaces were incompatible with attempted calls,Read retained dielectric/Born values and construct NAC parameters,get_born_params.py,20824; 20843; 25099
+Unit-cell and primitive-cell settings were inconsistent,Use the cell relationship matching the archived calculation,Cell/NAC consistency instructions,20734
+Gamma-point frequencies depended on NAC handling,Extract frequencies from band data with a defined direction,Gamma-point checks and frequency-extraction script,20843

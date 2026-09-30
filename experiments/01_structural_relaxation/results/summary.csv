@@ -1,0 +1,6 @@
+system_class,model_backbone,completion,mean_energy_deviation_mev_atom,median_energy_deviation_mev_atom,mean_rmsd,median_rmsd
+Workflow baseline,DeepSeek-V3.2,36/40,80.36,2.2,0.0234,0.005
+Workflow baseline,Gemini-3.1-Pro,35/40,45.48,2.86,0.0152,0.0041
+Workflow baseline,GPT-5.2,31/40,81.37,5.61,0.0318,0.0149
+Workflow baseline,Qwen3.5-397B-A17B,36/40,82.63,3.21,0.0154,0.0051
+VASP Agent,DeepSeek-V3.2,40/40,62.42,5.65,0.0218,0.0051

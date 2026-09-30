@@ -1,0 +1,36 @@
+SYSTEM = HSE06 Band Gap Calculation (restart from PBE)
+# --- Electronic structure ---
+ISTART  = 1          # Required! Read the initial wavefunction from the PBE WAVECAR
+ICHARG  = 2          # Initial charge density from superposition of atomic charges
+PREC    = Accurate
+ENCUT   = 520        # Must be identical to the PBE SCF stage
+EDIFF   = 1E-5       # The HSE convergence criterion can be relaxed somewhat
+NELM    = 100
+
+# --- Hybrid functional HSE06 ---
+LHFCALC = .TRUE.
+HFSCREEN = 0.2       # Standard HSE06 screening parameter
+AEXX     = 0.25      # Standard HSE06 exact-exchange mixing fraction
+# For special materials, adjust the two parameters above per references/hse_params.md
+
+# --- Algorithm (Damped recommended for large systems; All for small or hard-to-converge systems) ---
+ALGO    = Damped
+TIME    = 0.4        # Used together with ALGO=Damped
+
+# --- Acceleration options ---
+PRECFOCK = Fast      # Speeds up HF integrals; change to Normal if high accuracy is needed
+
+# --- Smearing ---
+ISMEAR  = 0
+SIGMA   = 0.05
+
+# --- Output ---
+LWAVE   = .FALSE.    # The HSE WAVECAR is very large and usually need not be kept
+LCHARG  = .FALSE.
+
+# --- K-points (must be identical to PBE SCF; use INCAR only, no KPOINTS file) ---
+KSPACING = 0.20
+KGAMMA   = .TRUE.
+
+# --- Parallelization ---
+# Parallel parameters are not fixed in this template; for GPU / KPAR / NCORE, go through the performance skill first

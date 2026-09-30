@@ -1,0 +1,71 @@
+{
+  "scope": "Sol27LC Run 1 with domain skills (27 sessions) and the five HSE06 band-gap sessions of experiment 07.",
+  "method": "Last cumulative ResultMessage.model_usage snapshot per session and model, summed over sessions. Full archived sessions, including interaction after the result became available.",
+  "common_rates_usd_per_million_tokens": {
+    "input_tokens": 0.22,
+    "cache_read_input_tokens": 0.007,
+    "output_tokens": 0.66
+  },
+  "rate_basis": "DeepSeek off-peak pricing accessed on 9 September 2026, applied uniformly to all recorded tokens regardless of execution time.",
+  "rate_sources": {
+    "pricing": "https://api-docs.deepseek.com/quick_start/pricing/",
+    "vision_same_rate": "https://api-docs.deepseek.com/news/news260821/"
+  },
+  "limits": "Recorded SDK usage, not reconciled provider bills.",
+  "groups": {
+    "Sol27LC": {
+      "n_tasks": 27,
+      "totals": {
+        "input_tokens": 2953956,
+        "cache_read_input_tokens": 605239424,
+        "cache_creation_input_tokens": 0,
+        "output_tokens": 2906295,
+        "total_tokens_including_cache": 611099675,
+        "common_rate_cost_usd": 6.8047009880000005
+      },
+      "means_per_task": {
+        "input_tokens": 109405.77777777778,
+        "cache_read_input_tokens": 22416274.962962963,
+        "cache_creation_input_tokens": 0,
+        "output_tokens": 107640.55555555556,
+        "total_tokens_including_cache": 22633321.296296295,
+        "common_rate_cost_usd": 0.25202596251851855
+      },
+      "medians_per_task": {
+        "input_tokens": 104711,
+        "cache_read_input_tokens": 13688576,
+        "cache_creation_input_tokens": 0,
+        "output_tokens": 94587,
+        "total_tokens_including_cache": 13878305,
+        "common_rate_cost_usd": 0.176617068
+      }
+    },
+    "HSE06": {
+      "n_tasks": 5,
+      "totals": {
+        "input_tokens": 550322,
+        "cache_read_input_tokens": 100093312,
+        "cache_creation_input_tokens": 0,
+        "output_tokens": 483151,
+        "total_tokens_including_cache": 101126785,
+        "common_rate_cost_usd": 1.140603684
+      },
+      "means_per_task": {
+        "input_tokens": 110064.4,
+        "cache_read_input_tokens": 20018662.4,
+        "cache_creation_input_tokens": 0,
+        "output_tokens": 96630.2,
+        "total_tokens_including_cache": 20225357,
+        "common_rate_cost_usd": 0.2281207368
+      },
+      "medians_per_task": {
+        "input_tokens": 102894,
+        "cache_read_input_tokens": 20509696,
+        "cache_creation_input_tokens": 0,
+        "output_tokens": 87877,
+        "total_tokens_including_cache": 20700467,
+        "common_rate_cost_usd": 0.224203372
+      }
+    }
+  }
+}

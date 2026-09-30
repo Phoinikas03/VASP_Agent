@@ -1,0 +1,3 @@
+condition,completion,mean_abs_relative_deviation_pct,median_abs_relative_deviation_pct,total_tasks,finished_tasks,median_tasks_per_system
+with_skills,27/27,0.2809364003443819,0.2151657044676806,612,605,22
+without_skills,27/27,0.28953041461052026,0.21260845619415586,1472,1443,52

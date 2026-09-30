@@ -1,0 +1,16 @@
+# Generic geometry-optimization template (adjust ISMEAR/SIGMA, ISPIN, MAGMOM, etc. for the system)
+# When using KSPACING, do not write KPOINTS (consistent with other skills in the project)
+SYSTEM = adsorption workflow — geometry optimization
+ENCUT = 400
+PREC  = Normal
+EDIFF = 1E-5
+EDIFFG = -0.05
+IBRION = 2
+NSW = 200
+ISIF = 2
+ISMEAR = 0
+SIGMA = 0.05
+LWAVE = .FALSE.
+LCHARG = .FALSE.
+KSPACING = 0.20
+KGAMMA = .TRUE.

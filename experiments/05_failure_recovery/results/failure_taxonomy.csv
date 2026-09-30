@@ -1,0 +1,6 @@
+failure_type,typical_symptom,agent_side_control
+Incorrect method tags,"HSE tasks omit LHFCALC, AEXX, or HFSCREEN, or introduce unsupported tags.","Load electronic-structure templates, record tag choices, and verify the generated INCAR before execution."
+Invalid tag combinations,"Relaxation or HSE continuation uses mutually inconsistent settings, causing non-convergence or a different calculation than intended.","Propagate task-level settings across directories and reuse compatible cutoff, sampling, and continuation conventions."
+Workflow-context loss,"The HSE stage cannot find the intended PBE output, or an EOS/adsorption subcalculation uses incomparable settings.","Maintain a persistent workspace, run-state files, and stage-specific reports that bind downstream operations to upstream artifacts."
+Runtime non-convergence or stall,"A VASP job returns without a parseable result, reaches a problematic state, or emits warning patterns.","Inspect OUTCAR, OSZICAR, logs, and .vasp_run_state.json; decide whether to wait, repair, rerun, or mark failure using parsed evidence."
+Unsafe process ownership,A generic process search matches unrelated supervisor or shell processes.,Use state-backed termination and exact run-directory matching before stopping or restarting a calculation.

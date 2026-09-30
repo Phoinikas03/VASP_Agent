@@ -1,0 +1,20 @@
+log_line,kind,tool,query_or_url,outcome
+10266,search,semanticscholar_search,MgO phonon dispersion inelastic neutron scattering zone center LO TO frequencies rocksalt,no papers found
+10480,search,google_search,MgO phonon dispersion experimental inelastic neutron scattering LO TO splitting zone center frequency,error (HTTP 400)
+10481,search,duckduckgo_search,MgO phonon dispersion curve density of states comparison DFT VASP phonopy rocksalt,content returned
+16119,search,arxiv_search,MgO phonon dispersion rocksalt inelastic neutron scattering zone center LO TO frequency,content returned
+16120,search,semanticscholar_search,MgO lattice dynamics phonon dispersion neutron scattering zone center optical mode frequency,no papers found
+16121,search,google_search,MgO phonon dispersion experimental frequencies TO 401 LO 720 cm-1 rocksalt,error (HTTP 400)
+16126,retrieval,WebFetch,https://phonopy.github.io/phonopy/vasp.html,content returned
+16127,retrieval,WebFetch,https://github.com/phonopy/phonopy/blob/main/example/MgO/README.md,content returned
+16128,search,google_search,MgO phonon frequencies experimental TO 401 LO 720 cm-1 X point 550 650 L point,error (HTTP 400)
+16133,retrieval,WebFetch,https://vasp.at/wiki/index.php/Computing_the_phonon_dispersion_and_DOS,content returned
+16134,search,duckduckgo_search,"MgO zone center phonon frequencies experimental ""401"" TO ""720"" LO cm-1",content returned
+16294,search,semanticscholar_search,Breakdown of phonon band theory in MgO Sangster experimental phonon frequencies,no papers found
+16296,retrieval,WebFetch,https://arxiv.org/html/2307.10944v2,content returned
+16953,search,duckduckgo_search,MgO phonon frequencies experimental table Sangster zone center TO LO X point L point THz lattice dynamics,content returned
+16954,search,arxiv_search,MgO rocksalt phonon dispersion first principles comparison inelastic neutron scattering zone boundary frequencies,content returned
+17471,retrieval,WebFetch,https://iopscience.iop.org/article/10.1088/0022-3719/3/5/017/pdf,content returned
+17472,retrieval,WebFetch,https://link.springer.com/content/pdf/10.1007/10681719_207,redirect to another host
+17476,retrieval,WebFetch,https://arxiv.org/pdf/2307.10944,content returned
+17477,search,duckduckgo_search,"""MgO"" phonon X point ""550"" OR ""551"" L point frequencies cm-1 neutron experiment longitudinal transverse",content returned

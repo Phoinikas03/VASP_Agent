@@ -1,0 +1,34 @@
+SYSTEM = LiFePO4 geometry optimization (lowest energy)
+
+# Precision / basic settings
+ENCUT  = 520
+PREC   = Accurate
+EDIFF  = 1E-6
+NELM   = 120
+LREAL  = Auto
+LASPH  = .TRUE.
+ADDGRID= .TRUE.
+
+# Ionic relaxation
+IBRION = 2
+ISIF   = 3
+NSW    = 200
+EDIFFG = -0.02
+POTIM  = 0.5
+
+# Smearing (insulator)
+ISMEAR = 0
+SIGMA  = 0.05
+
+# Spin + DFT+U for Fe
+ISPIN  = 2
+MAGMOM = 1*0.0 1*5.0 1*0.0 4*0.0   # Li Fe P O4
+LDAU   = .TRUE.
+LDAUTYPE = 2
+LDAUL  = -1 2 -1 -1
+LDAUU  = 0 4.3 0 0
+LDAUJ  = 0 0 0 0
+
+# Output controls
+LWAVE  = .FALSE.
+LCHARG = .FALSE.

@@ -1,0 +1,41 @@
+SYSTEM = Ionic Relaxation Only (fixed cell shape and volume)
+# Use case: lattice constants are known (e.g. experimental values or already optimized by a previous ISIF=3 step),
+# only atomic positions need to be optimized. Commonly used for interfaces, defects, and adsorption systems.
+
+# --- Electronic structure ---
+ISTART  = 0
+ICHARG  = 2
+PREC    = Accurate
+ENCUT   = 520        # Adjust per material
+EDIFF   = 1E-6
+NELM    = 100
+
+# --- Exchange-correlation ---
+GGA     = PE
+# For magnetic systems add: ISPIN = 2 / MAGMOM = ...
+# For strongly correlated systems add: LDAU = .TRUE. / LDAUU = ...
+
+# --- Smearing ---
+ISMEAR  = 0          # Semiconductors/insulators; change to 1 for metals
+SIGMA   = 0.05
+
+# --- Ionic relaxation ---
+IBRION  = 2
+ISIF    = 2          # Optimize atomic positions only, fixed cell
+NSW     = 200
+EDIFFG  = -0.02
+POTIM   = 0.5
+
+# --- Algorithm ---
+ALGO    = Normal
+
+# --- Output ---
+LWAVE   = .FALSE.
+LCHARG  = .FALSE.
+
+# --- K-points (recommended: INCAR only, no KPOINTS) ---
+KSPACING = 0.20
+KGAMMA   = .TRUE.
+
+# --- Parallelization ---
+NCORE   = 4

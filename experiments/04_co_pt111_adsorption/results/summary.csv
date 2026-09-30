@@ -1,0 +1,7 @@
+system_class,model_backbone,completion,adsorption_site,orientation,adsorption_energy_ev,relative_adsorption_energy_ev
+VASP Agent,DeepSeek-V3.2,8/8,fcc,upright,-1.755858,0.0
+VASP Agent,DeepSeek-V3.2,8/8,fcc,tilted-x,-1.752327,0.004
+VASP Agent,DeepSeek-V3.2,8/8,fcc,tilted-y,-1.75201,0.004
+VASP Agent,DeepSeek-V3.2,8/8,ontop,upright,-1.590614,0.165
+VASP Agent,DeepSeek-V3.2,8/8,ontop,tilted-x,-1.58649,0.169
+VASP Agent,DeepSeek-V3.2,8/8,ontop,tilted-y,-1.587253,0.169

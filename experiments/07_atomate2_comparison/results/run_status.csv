@@ -1,0 +1,38 @@
+task,arm,system,driver_status,model,wall_hours,operator_exchanges
+HSE06 band gap,VASP Agent,Cu2O,completed,deepseek-v4-flash-vision-exp,11.05,0
+HSE06 band gap,VASP Agent,GaAs,completed,deepseek-v4-flash-vision-exp,2.946,0
+HSE06 band gap,VASP Agent,GaP,completed,deepseek-v4-flash-vision-exp,8.427,0
+HSE06 band gap,VASP Agent,Si,completed,deepseek-v4-flash-vision-exp,1.837,0
+HSE06 band gap,VASP Agent,ZnO,completed,deepseek-v4-flash-vision-exp,1.89,0
+HSE06 band gap,atomate2,Cu2O,completed,,4.648,
+HSE06 band gap,atomate2,GaAs,completed,,2.485,
+HSE06 band gap,atomate2,GaP,completed,,4.461,
+HSE06 band gap,atomate2,Si,completed,,2.204,
+HSE06 band gap,atomate2,ZnO,completed,,7.181,
+Sol27LC,atomate2,Ag_fcc,completed,,0.969,
+Sol27LC,atomate2,Al_fcc,completed,,0.317,
+Sol27LC,atomate2,Au_fcc,completed,,0.694,
+Sol27LC,atomate2,Ba_bcc,completed,,0.862,
+Sol27LC,atomate2,C_dia,completed,,0.598,
+Sol27LC,atomate2,Ca_fcc,completed,,1.527,
+Sol27LC,atomate2,Cu_fcc,completed,,2.329,
+Sol27LC,atomate2,Fe_bcc,completed,,2.498,
+Sol27LC,atomate2,Ge_dia,completed,,1.035,
+Sol27LC,atomate2,Ir_fcc,completed,,0.943,
+Sol27LC,atomate2,K_bcc,completed,,0.857,
+Sol27LC,atomate2,Li_bcc,completed,,0.522,
+Sol27LC,atomate2,Mo_bcc,completed,,1.804,
+Sol27LC,atomate2,Na_bcc,completed,,0.482,
+Sol27LC,atomate2,Nb_bcc,completed,,1.593,
+Sol27LC,atomate2,Ni_fcc,completed,,2.286,
+Sol27LC,atomate2,Pb_fcc,completed,,1.111,
+Sol27LC,atomate2,Pd_fcc,completed,,1.196,
+Sol27LC,atomate2,Pt_fcc,completed,,1.152,
+Sol27LC,atomate2,Rb_bcc,completed,,0.697,
+Sol27LC,atomate2,Rh_fcc,completed,,1.227,
+Sol27LC,atomate2,Si_dia,completed,,0.09,
+Sol27LC,atomate2,Sn_dia,completed,,0.89,
+Sol27LC,atomate2,Sr_fcc,completed,,0.798,
+Sol27LC,atomate2,Ta_bcc,completed,,0.891,
+Sol27LC,atomate2,V_bcc,completed,,0.849,
+Sol27LC,atomate2,W_bcc,completed,,0.788,

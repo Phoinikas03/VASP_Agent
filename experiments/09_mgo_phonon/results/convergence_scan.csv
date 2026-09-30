@@ -1,0 +1,6 @@
+scan,ENCUT_eV,KSPACING_per_A,atoms,TOTEN_eV,delta_vs_previous_meV_per_atom
+encut,450.0,0.15,8,-47.40807767,
+encut,500.0,0.15,8,-47.39199788,2.0100
+encut,550.0,0.15,8,-47.39468919,-0.3364
+encut,600.0,0.15,8,-47.40884716,-1.7697
+kspacing,550.0,0.1,8,-47.39470048,

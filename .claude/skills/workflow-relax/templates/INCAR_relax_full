@@ -1,0 +1,39 @@
+SYSTEM = Full Structural Relaxation (atoms + cell shape + volume)
+# --- Electronic structure ---
+ISTART  = 0          # Start from scratch
+ICHARG  = 2          # Initialize from superposition of atomic charge densities
+PREC    = Accurate
+ENCUT   = 520        # Adjust per material (max ENMAX in POTCAR × 1.3)
+EDIFF   = 1E-6       # Electronic convergence criterion
+NELM    = 100        # Maximum number of electronic steps
+
+# --- Exchange-correlation ---
+GGA     = PE         # PBE functional
+# For magnetic systems add: ISPIN = 2 / MAGMOM = ...
+# For strongly correlated systems add: LDAU = .TRUE. / LDAUU = ... (see references/incar_params.md)
+# For vdW correction add: IVDW = 11 or 12
+
+# --- Smearing (choose by material type, see references/incar_params.md) ---
+ISMEAR  = 0          # Gaussian for semiconductors/insulators; change to 1 for metals
+SIGMA   = 0.05       # Change to 0.1~0.2 for metals
+
+# --- Ionic relaxation ---
+IBRION  = 2          # Conjugate gradient (CG); change to 1 (RMM-DIIS) if the initial structure is poor
+ISIF    = 3          # Optimize atomic positions + cell shape + volume simultaneously
+NSW     = 200        # Maximum number of ionic steps; can increase to 500 for complex systems
+EDIFFG  = -0.02      # Force convergence criterion (eV/Å); change to -0.01 for high accuracy
+POTIM   = 0.5        # CG step size; reduce to 0.3 if BRIONS warnings appear
+
+# --- Algorithm ---
+ALGO    = Normal
+
+# --- Output (WAVECAR not needed during relaxation) ---
+LWAVE   = .FALSE.
+LCHARG  = .FALSE.
+
+# --- K-points (recommended: INCAR only, no KPOINTS; tighten e.g. to 0.15 for metals) ---
+KSPACING = 0.20
+KGAMMA   = .TRUE.
+
+# --- Parallelization ---
+NCORE   = 4          # Adjust to the number of cores per compute node

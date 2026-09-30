@@ -1,0 +1,4 @@
+system,reference_gap_ev,agent_gap_ev,delta_gap_ev,reference_kpoint_mesh,agent_kpoint_mesh,reference_encut,agent_encut,reference_precfock,agent_precfock,reference_vbm_k,reference_cbm_k,agent_vbm_k,agent_cbm_k,agent_gap_at_reference_edge_pair_ev,literature_gap_ev,agent_minus_literature_ev,reference_minus_literature_ev
+BN,6.4873,5.7117,-0.7756,4x4x4,20x20x6,450,550,Fast,Fast,"(0.500, 0.000, 0.000)","(0.000, 0.000, 0.000)","(0.350, 0.300, 0.000)","(0.000, 0.000, 0.000)",6.4772,6.08,-0.3683,0.4073
+SnO2,2.3107,2.7858,0.4751,4x4x4,7x5x5,450,520.0,Fast,Normal,"(0.000, 0.000, 0.000)","(0.000, 0.000, 0.000)","(0.000, 0.000, 0.000)","(0.000, 0.000, 0.000)",2.7858,3.6,-0.8142,-1.2893
+C,5.7193,5.3156,-0.4037,4x4x4,21x21x21,450,520,Fast,Fast,"(0.000, 0.000, 0.000)","(0.250, 0.250, 0.000)","(0.000, 0.000, 0.000)","(0.381, 0.381, 0.000)",,5.47,-0.1544,0.2493

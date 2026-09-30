@@ -1,0 +1,9 @@
+system,component_type,site,orientation,e0_ev,adsorption_energy_ev,relative_adsorption_energy_ev,ionic_steps,included_in_statistics
+CO,gas-phase CO,,,-14.800195,,,3,yes
+surface,clean Pt(111) slab,,,-92.801160,,,5,yes
+configs/fcc_upright,adsorbed slab,fcc,upright,-109.357213,-1.755858,0.000000,22,yes
+configs/fcc_tilted_x,adsorbed slab,fcc,tilted-x,-109.353682,-1.752327,0.003531,78,yes
+configs/fcc_tilted_y,adsorbed slab,fcc,tilted-y,-109.353365,-1.752010,0.003848,65,yes
+configs/ontop_upright,adsorbed slab,ontop,upright,-109.191969,-1.590614,0.165244,41,yes
+configs/ontop_tilted_x,adsorbed slab,ontop,tilted-x,-109.187846,-1.586490,0.169368,147,yes
+configs/ontop_tilted_y,adsorbed slab,ontop,tilted-y,-109.188608,-1.587253,0.168605,137,yes

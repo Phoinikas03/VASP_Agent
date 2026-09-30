@@ -1,0 +1,24 @@
+# Static single-point energy template — for each EOS scale subdirectory
+# Usage: copy to the working directory, rename to INCAR, and fill in ENCUT and KSPACING (and ISMEAR/SIGMA if needed) from the convergence tests
+
+SYSTEM = static single-point for EOS
+PREC   = Accurate
+
+# --- Convergence-test parameters (to be replaced) ---
+ENCUT    = 450          # <-- replace with the value from the cutoff-energy convergence test
+KSPACING = 0.15         # <-- replace with the value from the k-point spacing convergence test (unit: 1/Angstrom)
+KGAMMA   = .TRUE.       # <-- recommended; use a Gamma-centered grid
+
+# --- Electronic parameters ---
+ISMEAR = 0
+SIGMA  = 0.05
+EDIFF  = 1E-6
+
+# --- Ionic parameters (static calculation) ---
+NSW    = 0
+ISIF   = 2
+IBRION = -1
+
+# --- Output control ---
+LWAVE  = .FALSE.
+LCHARG = .FALSE.
